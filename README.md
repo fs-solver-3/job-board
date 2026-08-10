@@ -19,7 +19,7 @@ Styling it or triggering something to happen upon user input is completely up to
 ### Kicking off the build
 In [previous builds](https://web-crunch.com/series/) I started from scratch by installing and configuring gems as we needed them. In order to save some time, I decided to create a [Rails application template](http://guides.rubyonrails.org/rails_application_templates.html). This approach is super useful if you find yourself reaching for the same files, gems, and other various features a Rails app has over and over. In my exact case I tend to use gems such as Devise, Guard, Bulma, SimpleForm, and more to create the same type of app for these screencasts.
 
-With all of this said I decided to share my template of which I called [__Kickoff__](https://github.com/justalever/kickoff). In the videos I dicuss at greater length how everything here works but to make use of it you can download the repo and `cd` into it.
+The full source for this build lives at [__job-board__](https://github.com/fs-solver-3/job-board). To make use of it you can download the repo and `cd` into it.
 
 From that point you can create a new Rails app by running  `rails new myapp -m template.rb`. The `template.rb` file is where all the magic happens. It tells our new app how to configure itself and essentially presents a checklist of tasks to perform. This ultimately saves me a load of time!
 
